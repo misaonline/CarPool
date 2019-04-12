@@ -19,8 +19,8 @@ public class MainAction extends BaseAction
 		mListView_Car = (ListView)findViewById(R.id.main_car_listview);
 		mListView_Person = (ListView)findViewById(R.id.main_person_listview);
 		
-//		mListView_Person.setAdapter(adapter)
-//Test
+		//mListView_Person.setAdapter(adapter)
+
 	}
 
 	@Override
