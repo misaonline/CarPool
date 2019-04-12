@@ -1,5 +1,6 @@
 package com.misa.pool;
 
+import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 
@@ -19,8 +20,16 @@ public class MainAction extends BaseAction
 		mListView_Car = (ListView)findViewById(R.id.main_car_listview);
 		mListView_Person = (ListView)findViewById(R.id.main_person_listview);
 		
-//		mListView_Person.setAdapter(adapter)
-//Test
+		//mListView_Person.setAdapter(adapter)
+
+		mButton_Car.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) 
+			{
+				//测试点击事件
+			}
+		});
 	}
 
 	@Override
